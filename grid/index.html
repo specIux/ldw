@@ -6,24 +6,59 @@
     <link rel="stylesheet" href="style.css">
     <title>galeria cs</title>
     <style>
+        body{
+            background-color:rgb(27, 66, 0)
+        }
+        header{
+            display: auto;
+            text-align: center;
+            background-color: rgb(201, 200, 182);
+            margin:1%;
+            padding:1%;
+            border: solid black 4px;
+            border-radius: 30px;
+
+        }
         #IMGALERY{
             width:361.2px; 
             height:270.9px;
+            border-radius: 0%;
         }
         #galeria{
+            margin: 1%;
+            padding: 1%;
+            text-align: center;
             display: grid;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: auto auto;
-            gap: 15px;
+            gap:1%;
+            background-color: rgb(218, 217, 199);
+            border-radius: 20px;
+        }
+        .juego{
+           text-align: center;
+           background-color: rgb(169, 170, 157);
+           padding: 3%;
+           border-radius: 3%;
+        }
+        p{text-align: left;}
+        footer{
+            display: auto;
+            text-align: center;
+            background-color: rgb(201, 200, 182);
+            margin:1%;
+            padding:0.25%;
+            border: solid black 4px;
+            border-radius: 30px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Counter - Strike | Museo de versiones</h1>
-        <p>Desde sus inicios como 'mod' de Half Life hasta hoy en dia, Counter - Strike paso por muchos cambios</p>
+        <h4>Desde sus inicios como 'mod' de Half Life hasta hoy en dia, Counter - Strike paso por muchos cambios</h4>
     </header>
-    
+     
     <div id="galeria">
         <!-- CS COMO MOD DE HALF LIFE !-->
         <div class="juego">
@@ -31,14 +66,14 @@
             <h2>Counter - Strike BETA</h2>
             <p>Fecha de Lanzamiento: <b>19/06/1999</b></p>
             <p>Plataforma: <b>Windows</b></p>
-            <p>Datos extra: Antes de su lanzamiento comercial, Counter-Strike estaba planeado a ser una modificacion (mod) de Half-Life hecho en GoldSrc
+            <p>Datos extra: Antes de su lanzamiento comercial, Counter - Strike estaba planeado a ser una modificacion (mod) de Half-Life hecho en GoldSrc
                 (motor grafico), este todavia no era un producto de Valve, pero esta participaba en el desarollo
             </p>
         </div>
         <!-- CS 1.6 !-->
         <div class="juego">
             <img src="cs16.jpg" alt="Imagen de caja de HALF LIFE : Counter - Strike" id="IMGALERY">
-            <h2>HALF LIFE: Counter - Strike (o CS 1.6)</h2>
+            <h2>HALF LIFE: Counter - Strike (1.6)</h2>
             <p>Fecha de Lanzamiento: <b>09/11/2000</b></p>
             <p>Plataforma: <b>Windows</b></p>
             <p>Datos extra: Primera version de CS (Counter Strike) lanzada al mercado por Valve, quienes habian contratado a los creadores originales
@@ -87,10 +122,19 @@
             <h2>Counter - Strike : Online</h2>
             <p>Fecha de Lanzamiento: <b>24/07/08</b> en Taiwan (XX/12/13 para el resto de Asia)</p>
             <p>Plataforma: <b>	Windows, Linux</b></p>
-            <p>Datos extra: Una de las versiones adaptada para el mercado de Asia, desarollado y publicado por "Nexon", siendo solo observado por
+            <p>Datos extra: Una de las versiones adaptada para el mercado de Asia, desarollado y publicado por "Nexon", siendo tan solo observado por
             Valve.</p>
         </div>
+        <div class="juego">
+            <img src="CSO2.jpg" alt="Imagen de caja de Counter - Strike : Online 2" id="IMGALERY">
+            <h2>Counter - Strike : Online 2</h2>
+            <p>Fecha de Lanzamiento: <b>05/04/12</b></p>
+            <p>Plataforma: <b>	Windows, Linux</b></p>
+            <p>Datos extra: Utiliza una version mejorada de Source, tan solo duro unos 6 años y no salio de la beta abierta</p>
+        </div>
     </div>
-    
+    <footer>
+        <h3>Luca Di Guglielmo<br>5°3°<br>E.E.S.T N°1</h3>
+    </footer>
 </body>
 </html>
