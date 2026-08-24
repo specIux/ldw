@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js2</title>
+
+    <script>
+        function mifuncion() {
+            document.getElementById("afectado").innerHTML = "adios";
+        }
+        function mifuncion2() {
+            document.getElementById("afectado").innerHTML = "hola";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>primera actividad</h1>
+    <div>
+        <button onclick="alert('advertencia sismica')">alerta</button>
+    </div>
+    <br>
+    <div>
+        <button onclick="confirm('proceder')">confirmacion</button>
+    </div>
+    <br>
+    <div>
+        <button onclick="prompt('promptzito')">prompttttt</button>
+    </div>
+    <h1>segunda actividad</h1>
+    <p id="elemento">javvascirpt tttt cambia estilo d otros elementsos ache te eme ele</p>
+    <button type="button" onclick="document.getElementById('elemento').style.fontStyle='Italic' ">clickear</button>
+    <h1>tercera actividad</h1>
+
+    <p id="afectado">hola</p>
+    <button type="button" onclick="mifuncion()">despedir</button>
+    <button type="button" onclick="mifuncion2()">saludar</button>
+    <h1>cuarta actividad</h1>
+        <p id="afectado2">hola</p>
+    <button type="button" onclick="mifuncion3()">despedir</button>
+    <button type="button" onclick="mifuncion4()">saludar</button>
+    <script>
+        function mifuncion3(){
+            document.getElementById("afectado2").innerHTML = "adios";
+        }
+        function mifuncion4(){
+            document.getElementById("afectado2").innerHTML = "hola";
+        }
+    </script>   
+</body> 
+</html>

@@ -1,0 +1,104 @@
+.boton1{
+background-color: orange;
+border: none;
+color: white;
+font-size: larger;
+cursor: pointer;
+height: 50px;
+width: 200px;
+border-radius: 30px;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+margin-top: 10%;
+margin-right: 10%;
+display: inline-block;
+transition-duration: 500ms;
+}
+.boton2{
+background-color: rgb(229, 35, 255);
+border: none;
+color: white;
+font-size: larger;
+cursor: pointer;
+height: 75px;
+width: 200px;
+border-radius: 15px;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+margin-top: 10%;
+margin-right: 10%;
+display: inline-block;
+transition-duration: 500ms;
+}
+.boton3{
+background-color: rgb(21, 216, 4);
+border: none;
+color: white;
+font-size: larger;
+cursor: pointer;
+height: 150px;
+width: 200px;
+border-radius: 15px;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+margin-top: 10%;
+margin-right: 10%;
+display: inline-block;
+transition-duration: 500ms;
+}
+.boton4{
+background-color: rgb(218, 1, 1);
+border: solid black 10px;
+color: white;
+font-size: larger;
+cursor: pointer;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+margin-top: 10%;
+margin-right: 10%;
+display: inline-block;
+transition-duration: 500ms;
+}
+.nodisponible{
+background-color: rgb(70, 41, 41);
+border: solid black 10px;
+color: white;
+font-size: larger;
+cursor:wait;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+margin-top: 10%;
+margin-right: 10%;
+display: inline-block;
+
+}
+.botonfalso{
+background-color: rgb(229, 35, 255);
+border: none;
+color: rgb(0, 184, 230);
+font-size: larger;
+cursor: pointer;
+height: 75px;
+width: 200px;
+border-radius: 15px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+text-decoration:underline;
+margin-top: 10%;
+margin-right: 10%;
+display: inline-block;
+}
+.boton1:hover,.boton2:hover,.boton3:hover,.boton4:hover{
+    background: rgb(0, 0, 0);
+}
