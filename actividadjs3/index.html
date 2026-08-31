@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>actividades js 3</title>
+    <script>
+        function FuncEj1(){
+            document.getElementById("ej1").innerHTML = 3 + 5;
+        }
+        function FuncEj2(){
+            const nombreUsuario = prompt("Ingrese su nombre de usuario:")
+            document.getElementById("ej2").innerHTML = 'hola ' + nombreUsuario;
+        }
+        function FuncEj3(){
+            const  num3a = parseFloat(prompt("Ingrese el primer numero aqui: "));
+            document.getElementById("ej3a").innerHTML = 'el numero: ' + num3a;
+            const num3b = parseFloat(prompt("Ingrese el segundo numero aqui: "));
+            document.getElementById("ej3b").innerHTML = 'sumado a: ' + num3b;
+            document.getElementById("ej3r").innerHTML = 'da: ' + (num3a + num3b);
+        }
+
+        function FuncEj4(){
+            const num4a = parseFloat(prompt("Ingrese un numero cualquiera"));
+            document.getElementById("ej4a").innerHTML = 'numero A: ' + num4a;
+            const num4b = parseFloat(prompt("Ingrese otro o el mismo numero cualquiera"));
+            document.getElementById("ej4b").innerHTML = 'numero B: ' + num4b;
+            if (num4a == num4b){ document.getElementById("ej4r").innerHTML = num4a + '(Numero A) y ' + num4b + '(Numero B) son iguales'}
+            if (num4a > num4b){ document.getElementById("ej4r").innerHTML = num4a + '(Numero A)  es mayor que ' + num4b + '(Numero B)'}
+            if (num4a < num4b){ document.getElementById("ej4r").innerHTML = num4a + '(Numero A)  es menor que ' + num4b + '(Numero B)'}
+        }
+        
+    </script>
+</head>
+
+<body>
+    
+    <h1>Actividad js 3</h1>
+    <h3>Ejercicio 1</h3>
+    <div>
+    <p>3 + 5 =</p><p id="ej1"></p>
+    <button type="button" onclick="FuncEj1()">resolver</button>
+    </div>
+
+    <div>
+    <h3>Ejercicio 2</h3>
+    <p id="ej2">Usuario no registrado</p>
+    <button type="button" onclick="FuncEj2()">ingresar</button>
+    </div>
+    
+    <div>
+    <h3>Ejercicio 3</h3>
+    <p id="ej3a">el numero: </p>
+    <p id="ej3b">sumado a: </p>
+    <p id="ej3r">da: </p>
+    <button type="button" onclick="FuncEj3()">INGRESAR NUMEROS A SUMAR</button>
+    </div>
+
+    <div>
+    <h3>Ejercicicicicicici i icicicico 4</h3>
+    <p id="ej4a">numero A:</p>
+    <p id="ej4b">numero B:</p>
+    <p id="ej4r"></p>
+    <button type="button" onclick="FuncEj4()">INGRESAR NUMEROS A COMPARAR</button>
+    </div>
+</body>
+</html>
